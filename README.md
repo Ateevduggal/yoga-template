@@ -1,2 +1,2 @@
 # yoga-template
-this is just a template for building a yoga website
+This is just a template for building a yoga website
