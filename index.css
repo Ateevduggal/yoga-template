@@ -1,0 +1,464 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+    font-family: 'Merriweather', serif;
+}
+#hero{
+    background-image: url(quote.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: hsla(0, 0%, 0%, 0.493);
+    background-blend-mode: darken;
+}
+.navbar-brand{
+    color: white;
+    font-size: 50px;
+    font-weight: 600;
+    transition: all 0.4s ease 0.1s;
+    margin-top: -1%;
+}
+.fa-bars{
+    color: white;
+    font-size: 22px;
+}
+.nav-link{
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    transition: all 0.4s ease 0.1s;
+}
+.nav-link1{
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    text-decoration: none;
+}
+.nav-link1:hover{
+    color: white;
+}
+.navbar-brand:hover,.nav-link:hover{
+    color: rgba(255, 166, 0, 0.705);
+}
+#hero-text{
+    padding: 10% 7%;
+}
+.h3a{
+    font-size: 40px;
+    font-weight: 600;
+    padding: 0 20%;
+    color: white;
+}
+.h4a{
+    font-style: italic;
+    font-size: 25px;
+    font-weight: 500;
+    color: white;
+    padding: 2% 16%;
+}
+#btn1{
+    background-color: rgba(255, 166, 0, 0.514);
+    border: none;
+    outline: none;
+    border-radius: 34px;
+    padding: 1%;
+    transition: all 0.4s ease 0.1s;
+    cursor: pointer;
+}
+#btn1:hover{
+    background-color: orange;
+}
+.btn1{
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    text-decoration: none;
+}
+.btn1:hover{
+    color: white;
+}
+.dropdown-menu{
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+.dropdown-item{
+    color: black;
+    font-size: 17px;
+    font-weight: 600;
+    transition: all 0.4s ease 0.1s;
+    background-color: #fff;
+}
+.dropdown-item:hover{
+    color: rgba(255, 166, 0, 0.699);
+    background-color: transparent;
+}
+#member{
+    background-color: rgba(0, 0, 0, 0.815);
+    color: white;
+}
+#text{
+    font-size: 45px;
+    font-weight: bold;
+    padding-bottom: 2%;
+    opacity: 0.7;
+}
+#card{
+    outline: none;
+    cursor: pointer;
+    transition: all 0.4s ease 0.1s;
+    border: none;
+}
+#card:hover{
+    color: rgba(255, 166, 0, 0.733);
+}
+.fa-chalkboard-teacher,.fa-rss,.fa-award{
+    font-size: 70px;
+    opacity: 0.8;
+    color: rgba(255, 255, 255, 0.562)
+}
+.card-title{
+    font-size: 24px;
+    font-weight: 600;
+}
+.card-text{
+    font-size: 17px;
+    font-weight: 500;
+    opacity: 0.8;
+    color: rgba(255, 255, 255, 0.562)
+}
+.card-subtitle{
+    font-size: 15px;
+    font-weight: 500;
+    opacity: 0.8;
+}
+#card1{
+    padding: 0% 2%;
+    border: none;
+    cursor: pointer;
+    transition: all 0.4s ease 0.1s;
+}
+#card1:hover{
+    color: rgba(255, 166, 0, 0.904);
+    margin-top: -10px;
+}
+#learn{
+    background-image: url(learn.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: hsla(0, 0%, 0%, 0.425);
+    background-blend-mode: darken;
+    padding-bottom: 10%;
+}
+.h3b{
+    padding-top: 10%;
+    font-size: 45px;
+    font-weight: 600;
+    color: white;
+}
+.h4b{
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.849);
+    padding: 2% 28%;
+}
+.btn2{
+    padding: 12% 0;
+}
+#quote{
+    background-image: url(hero.webp);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-blend-mode: darken;
+    background-color: #72544cde;
+    padding-bottom: 3%;
+}
+.quote{
+    background-color: #72544cde;
+    color: white;
+    padding: 3% 4%;
+}
+#testimonials{
+    background-color: rgba(0, 0, 0, 0.795);
+    color: white;
+    padding-bottom: 3%;
+}
+#card2{
+    background-color: transparent;
+    color: white;
+    transition: all 0.4s ease 0.1s;
+    margin-left: 6%;
+    cursor: pointer;
+    font-weight: 600;
+}
+#card2:hover{
+    background-color: #fff;
+    color: black;
+    margin-top: -10px;
+    box-shadow: 13px 13px 17px rgba(255, 255, 255, 0.384);
+}
+.h3c{
+    font-weight: 600;
+    line-height: 34px;
+    padding-top: 6%;
+    font-size: 27px;
+    padding-right: 4%;
+}
+.h4c{
+    padding-right: 2%;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 34px;
+    font-size: 25px;
+}
+#btn-quote{
+    border: none;
+    outline: none;
+    background-color: rgba(255, 166, 0, 0.795);
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    padding: 2%;
+    border-radius: 44px;
+}
+.btn{
+    padding-right: 13%;
+}
+#footer{
+    background-color: #fff;
+    color: black;
+}
+#navbar-brand{
+    font-size: 60px;
+    font-weight: 700;
+}
+h4{
+    font-size: 20px;
+    cursor: pointer;
+}
+#f-name::placeholder,#f-email::placeholder,#f-body::placeholder{
+    color: black;
+    padding-left: 2%;
+}
+#f-name,#f-email,#f-body{
+    font-size: 15px;
+    color: black;
+}
+@media only screen and (max-width:1024px){
+    #text{
+        font-size: 35px;
+        padding: 0 12%;
+    }
+    .fa-chalkboard-teacher,.fa-rss,.fa-award{
+        font-size: 50px;
+    }
+    .card-text{
+        font-size: 15px;
+    }
+    #card1{
+        margin-top: 2%;
+    }
+    h4{
+        font-size: 15px;
+    }
+    #f2,#f1,#f3{
+        padding: 3%;
+    }
+}
+@media only screen 
+and (min-width:576px)
+and (max-width:800px){
+    .h3c{
+        font-size: 18px;
+    }
+    .h4c{
+        font-size: 15px;
+    }
+    #btn-quote{
+        font-size: 18px;
+    }
+}
+@media only screen 
+and (min-width:300px)
+and (max-width:576px){
+    .card-title{
+        font-size: 18px;
+    }
+    .card-text{
+        font-size: 12px;
+    }
+    #card1{
+        width: 50%;
+    }
+    #articles{
+        padding: 3%;
+    }
+    #quote{
+        padding-bottom: 80%;
+        background-color: rgba(49, 46, 46, 0.267);
+    }
+    #btn-quote{
+        font-size: 20px;
+    }
+    .btn{
+        width: 100%;
+        padding: 2%;
+    }
+    #card2{
+        width: 25%;
+    }
+    .card-subtitle{
+        font-size: 12px;
+    }
+    #f1,#f2,#f3{
+        margin-left: 3%;
+        width: 37%;
+    }
+    #f-name,#f-email,#f-body{
+        width: 90%;
+        margin-left: 2%;
+    }
+}
+                /*   ABOUT US     */
+#hero-about{
+    background-color: rgba(0, 0, 0, 0.719);
+    padding-bottom: 3%;
+}
+#extra{
+    font-size: 25px;
+    font-weight: 500;
+    padding: 3% 10%;
+}
+#meet{
+    padding-bottom: 3%;
+}
+.meet-img{
+    object-fit: cover;
+    width: 100%;
+}
+#meet-img{
+    padding-bottom: 3%;
+    padding-top: 3%;
+}
+#meet-text{
+    font-size: 25px;
+    font-weight: 500;
+    padding: 1% 10%;
+}
+@media only screen and (max-width:1024px){
+    #extra,#meet-text{
+        font-size: 20px;
+    }
+}
+/*      ARTICLES PAGE       */
+small{
+    font-size: 25px;
+    font-weight: 500;
+font-style: italic;
+}
+#but-article{
+    border:none;
+    outline: none;
+    font-size: 23px;
+    font-weight: 600;
+    transition: all 0.4s ease 0.1s;
+    background-color: #fff;
+}
+#but-article:hover{
+    color: chocolate;
+    border: 1px solid black;
+    font-size: 25px;
+}
+#trending{
+    padding: 3% 0;
+}
+#style,#teaching,#meditation,#tutorials,#health,#lotus{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    background-color: rgba(0, 0, 0, 0.295);
+    transition: all 0.4s ease;
+    color: white;
+    padding: 6% 0;
+    font-size: 25px;
+    font-weight: 600;
+    cursor: pointer;
+}
+#style{
+    background-image: url(style.webp);
+}
+#teaching{
+    background-image: url(teaching.webp);
+}
+#meditation{
+    background-image: url(Medition.webp);
+}
+#tutorials{
+    background-image: url(tutorial.webp);
+}
+#health{
+    background-image: url(health.webp);
+}
+#lotus{
+    background-image: url(lotus.webp);
+}
+#category{
+    display: none;
+}
+#style:hover,#teaching:hover,#meditation:hover,#tutorials:hover,#health:hover,#lotus:hover{
+    box-shadow: 12px 12px 15px rgba(0, 0, 0, 0.603);
+    margin-top: -15px;
+}
+#card-img{
+    height: 56%;
+}
+#card-img1{
+    height: 62%;
+}
+#styles{
+    padding-top: 3%;
+}
+@media only screen and (max-width:1024px){
+    .h3a{
+        font-size: 36px;
+   }
+    small{
+        font-size: 23px;
+    }
+    #style{
+        margin-left: 5%
+    }
+}
+@media only screen 
+and (min-width:300px)
+and (max-width:576px){
+    #category{
+        display: block;
+    }
+    #categories{
+        display: none;
+    }
+    #style{
+        margin-left: 0;
+    }
+    #style,#teaching,#meditation,#tutorials,#health,#lotus{
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 5%;
+    }
+    #but{
+        margin-right: 15%;
+        width: 20%;
+        margin-left: 70%;
+        margin-top: -11%;
+    }
+    .text{
+        width: 70%;
+    }    
+}
